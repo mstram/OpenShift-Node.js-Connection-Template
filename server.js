@@ -1,7 +1,7 @@
 var express  = require('express'), 
     mongoose = require('mongoose'); 
 
-//Declaring environment variables 
+// Declaring environment variables 
 var mongoDBHost = process.env.OPENSHIFT_MONGODB_DB_HOST; 
 var mongoDBPort = process.env.OPENSHIFT_MONGODB_DB_PORT;
 var nodeJSPort  = process.env.OPENSHIFT_NODEJS_PORT || '8080'; 
